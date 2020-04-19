@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Bio from "./pages/Bio";
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </div>
       </Router>
+      <Footer />
     </div>
   );
 }
