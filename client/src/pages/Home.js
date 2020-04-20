@@ -1,9 +1,10 @@
 import React from "react";
+import Welcome from "../components/Welcome/Welcome";
 
 function Home() {
     return(
         <div>
-            <h1>Hello Aaron</h1>
+            <Welcome />
         </div>
     )
 }
