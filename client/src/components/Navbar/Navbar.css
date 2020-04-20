@@ -1,5 +1,6 @@
 nav {
     background-color: rgba(241, 241, 241, 0.8); 
+    border-bottom: 2px solid rgb(200, 200, 200);
 }
 nav ul {
     width: 100%;
@@ -15,6 +16,7 @@ nav ul li {
 }
 nav ul li a {
     color: rgb(46, 93, 123);
+    font-family: 'Nunito', sans-serif;
 }
 nav ul li a:hover {
     text-decoration: none;

@@ -4,7 +4,8 @@ import "./Welcome.css";
 function Welcome() {
     return(
         <div id="welcome">
-            <h1>Stickley Designs</h1>
+            <img src="/images/StickleyDesignsNew.png" alt="Stickley Designs"/>
+            <p>Clean Designs. Teachable Movement. Great Service.</p>
         </div>
     )
 }

@@ -1,1 +1,25 @@
-
+#welcome {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: rgba(241, 241, 241, 0.8);
+    border: 2px solid rgb(200, 200, 200);
+}
+#welcome img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#welcome p {
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    #welcome {
+        width: 80%;
+    }
+}

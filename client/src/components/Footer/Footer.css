@@ -3,8 +3,10 @@ footer {
     bottom: 0;
     width: 100%;
     background-color:rgba(241, 241, 241, 0.8);
+    border-top: 2px solid rgb(200, 200, 200);
 }
 footer p {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     color: rgb(46, 93, 123);
     padding: 10px;
