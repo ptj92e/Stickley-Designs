@@ -1,0 +1,22 @@
+nav {
+    background-color: rgba(241, 241, 241, 0.8); 
+}
+nav ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+nav ul li a {
+    color: rgb(46, 93, 123);
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(249,162,106);
+}

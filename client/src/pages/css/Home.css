@@ -1,0 +1,8 @@
+#home {
+  min-height: 100vh;
+  background-image: url("/images/IMG-6286.jpg");
+  background-color: rgb(155, 215, 208);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
