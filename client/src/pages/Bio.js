@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
+import Biography from "../components/Biography/Biography";
+import "./css/Bio.css"
 
 function Bio() {
     return(
-        <div>
+        <div id="bio">
             <Navbar />
-            <h1>I play etudes</h1>
+            <Biography />
             <Footer />
         </div>
     )
