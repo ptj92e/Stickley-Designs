@@ -1,4 +1,5 @@
 html, body {
   margin: 0px;
   padding: 0px;
+  background-image: radial-gradient(rgb(249, 162, 106) 5%, rgb(46, 93, 123) 50%);
 }
