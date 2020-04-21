@@ -4,7 +4,7 @@ import "./Welcome.css";
 function Welcome() {
     return (
         <div>
-            <div id="welcome">
+            <div className="bigIn" id="welcome">
                 <img src="/images/StickleyDesignsNew.png" alt="Stickley Designs" />
                 <p>Clean Designs. Teachable Movement. Great Service.</p>
             </div>
