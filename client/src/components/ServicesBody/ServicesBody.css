@@ -1,0 +1,79 @@
+#servicesBody {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(155, 215, 208, 0.7);
+    border: 3px solid rgb(249, 162, 106);
+    overflow: auto;
+}
+#servicesBody h3 {
+    margin-top: 10px;
+    color: white;
+}
+#servicesBody i {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    color: rgb(249, 162, 106);
+}
+#servicesTop {
+    width: 100%; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-flex;   
+}
+#servicesBottom {
+    width: 100%; 
+    margin-bottom: 20px;
+    display: inline-flex;       
+}
+#one {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(46, 93, 123);
+    border: 3px solid rgb(249, 162, 106);
+}
+#two {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(46, 93, 123);
+    border: 3px solid rgb(249, 162, 106);
+}
+#three {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(46, 93, 123);
+    border: 3px solid rgb(249, 162, 106);
+}
+#four {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(46, 93, 123);
+    border: 3px solid rgb(249, 162, 106);
+}
+@media only screen and (max-width: 768px) {
+    #servicesTop {
+        display: block;   
+    }
+    #servicesBottom {
+        display: block;       
+    }
+    #one {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #two {
+        width: 90%;
+    }
+    #three {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #four {
+        width: 90%;
+    }
+}
