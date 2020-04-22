@@ -22,10 +22,15 @@
     margin-bottom: 20px;
     display: inline-flex;   
 }
-#servicesBottom {
+#servicesMiddle {
     width: 100%; 
     margin-bottom: 20px;
     display: inline-flex;       
+}
+#servicesBottom {
+    width: 100%; 
+    margin-bottom: 20px;
+    display: inline-flex;
 }
 #one {
     width: 45%;
@@ -54,6 +59,18 @@
     margin-right: auto;
     background-color: rgb(46, 93, 123);
     border: 3px solid rgb(249, 162, 106);
+}
+#five {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(46, 93, 123);
+    border: 3px solid rgb(249, 162, 106);
+}
+#six {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .flubber { 
     animation: flubber 1s; 
@@ -84,8 +101,11 @@
     #servicesTop {
         display: block;   
     }
-    #servicesBottom {
+    #servicesMiddle {
         display: block;       
+    }
+    #servicesBottom {
+        display: block;
     }
     #one {
         width: 90%;
@@ -100,5 +120,9 @@
     }
     #four {
         width: 90%;
+    }
+    #five {
+        width: 90%;
+        margin-bottom: 20px;
     }
 }

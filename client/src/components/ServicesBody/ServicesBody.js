@@ -14,7 +14,7 @@ function ServicesBody() {
                     <h3>Choreography</h3>
                 </div>
             </div>
-            <div id="servicesBottom">
+            <div id="servicesMiddle">
                 <div className="flubber" id="three">
                     <i class="fas fa-chalkboard-teacher fa-2x"></i>
                     <h3>Clinics</h3>
@@ -23,6 +23,13 @@ function ServicesBody() {
                     <i class="fas fa-mobile-alt fa-2x"></i>
                     <h3>Consultation</h3>
                 </div>
+            </div>
+            <div id="servicesBottom">
+                <div className="flubber" id="five">
+                    <i class="fas fa-user-friends fa-2x"></i>
+                    <h3>Staffing</h3>
+                </div>
+                <div id="six"></div>
             </div>
         </div>
     )
