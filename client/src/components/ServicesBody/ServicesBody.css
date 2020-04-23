@@ -9,6 +9,10 @@
     margin-top: 10px;
     color: white;
 }
+#servicesBody p {
+    color: white;
+    margin-left: 60px;
+}
 #servicesBody i {
     margin-top: 10px;
     margin-left: 10px;
@@ -71,6 +75,8 @@
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(46, 93, 123);
+    border: 3px solid rgb(249, 162, 106);
 }
 .flubber { 
     animation: flubber 1s; 
@@ -107,6 +113,10 @@
     #servicesBottom {
         display: block;
     }
+    #servicesBody p {
+        margin-left: 0px;
+        text-align: center;
+    }
     #one {
         width: 90%;
         margin-bottom: 20px;
@@ -124,5 +134,8 @@
     #five {
         width: 90%;
         margin-bottom: 20px;
+    }
+    #six {
+        width: 90%;
     }
 }
