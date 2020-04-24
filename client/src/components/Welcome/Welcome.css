@@ -9,6 +9,7 @@
     left: 20%;
 }
 #welcome img {
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
