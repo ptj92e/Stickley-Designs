@@ -1,0 +1,46 @@
+#portfolioItems {
+    background-color: rgba(155,215,208, 0.7);
+    padding: 20px;
+    margin-bottom: 7vh;
+    color: white; 
+    border: 3px solid rgb(249, 162, 106);
+}
+#portfolioItems p {
+    text-align: center;
+}
+#videoDiv {
+    display: flex;
+}
+#videoDiv h3 {
+    text-align: center;
+}
+#videoDiv iframe {
+    width: 100%;
+    border: 3px solid rgb(249, 162, 106);
+}
+#video1 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video2 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 992px) {
+    #videoDiv {
+        display: block;
+    }
+    #video1 {
+        width: 100%;
+    }
+    #video2 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #portfolioItems h1{
+        text-align: center;
+    }
+}

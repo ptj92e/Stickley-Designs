@@ -1,4 +1,5 @@
 import React from "react";
+import PortfolioItems from "../PortfolioItems/PortfolioItems";
 import "./PortfolioTitle.css";
 
 function PortfolioTitle() {
@@ -39,6 +40,7 @@ function PortfolioTitle() {
                 </div>
             </div>
             <hr></hr>
+            <PortfolioItems />
         </div>
     )
 }

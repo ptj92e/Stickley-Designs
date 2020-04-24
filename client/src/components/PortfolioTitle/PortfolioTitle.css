@@ -46,6 +46,9 @@
     #portfolioTitle {
         width: 90%;
     }
+    #portfolioInfo h1 {
+        text-align: center;
+    }
     #DrillCarousel {
         width: 90%;
     }
