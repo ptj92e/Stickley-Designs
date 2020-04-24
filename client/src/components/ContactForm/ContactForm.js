@@ -36,13 +36,11 @@ function ContactForm() {
                     <form onSubmit={handleSubmit}>
                         <div id="first">
                             <input
-                                className="flipX"
                                 type="text"
                                 placeholder="Name"
                                 ref={nameRef}
                             />
                             <input
-                                className="flipX"
                                 type="email"
                                 placeholder="E-Mail"
                                 ref={emailRef}
@@ -50,13 +48,11 @@ function ContactForm() {
                         </div>
                         <div id="second">
                             <input
-                                className="flipX"
                                 type="text"
                                 placeholder="Subject"
                                 ref={subjectRef}
                             />
                             <input
-                                className="flipX"
                                 type="text"
                                 placeholder="School Name"
                                 ref={schoolRef}
@@ -64,13 +60,11 @@ function ContactForm() {
                         </div>
                         <div id="third">
                             <input
-                                className="flipX"
                                 type="text"
                                 placeholder="City, State"
                                 ref={locationRef}
                             />
                             <input
-                                className="flipX"
                                 type="text"
                                 placeholder="# of Students"
                                 ref={studentsRef}
@@ -78,7 +72,6 @@ function ContactForm() {
                         </div>
                         <div id="textDiv">
                             <textarea
-                                className="flipX"
                                 placeholder="Message"
                                 ref={messageRef}
                             />
@@ -88,7 +81,7 @@ function ContactForm() {
                         </div>
                     </form>
                 </div>
-                <div className="arriveLeft" id="contactInfo">
+                <div id="contactInfo">
                     <h3>Contact Information:</h3>
                     <p>Phone Number: 423-416-8657</p>
                     <p>E-Mail: ars7stickley@gmail.com</p>

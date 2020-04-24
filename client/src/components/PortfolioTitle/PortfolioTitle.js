@@ -6,7 +6,7 @@ function PortfolioTitle() {
     return (
         <div id="portfolioTitle">
             <div id="portfolioInfo">
-                <h1>Pictures:</h1>
+                <h1>Charts:</h1>
                 <p>Here are some examples of my work. Please take a look, and if you like what you see, let me know in the contact page.</p>
                 <div id="DrillCarousel" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">

@@ -107,14 +107,6 @@
     right: 25%;
     z-index: 0;
 }
-.flipX { 
-    animation: flipX 1s; 
-} 
-@keyframes flipX { 
-    to { 
-        transform: rotateX(360deg); 
-    } 
-}
 @media only screen and (max-width: 1150px) {
     #emailForm {
         padding: 0px;
