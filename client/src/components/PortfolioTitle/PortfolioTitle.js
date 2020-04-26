@@ -14,6 +14,8 @@ function PortfolioTitle() {
                         <li data-target="#DrillCarousel" data-slide-to="1"></li>
                         <li data-target="#DrillCarousel" data-slide-to="2"></li>
                         <li data-target="#DrillCarousel" data-slide-to="4"></li>
+                        <li data-target="#DrillCarousel" data-slide-to="5"></li>
+                        <li data-target="#DrillCarousel" data-slide-to="6"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
@@ -27,6 +29,12 @@ function PortfolioTitle() {
                         </div>
                         <div className="carousel-item">
                             <img src="/images/Drill4.png" className="d-block w-100" alt="Drill4" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/images/Drill5.png" className="d-block w-100" alt="Drill5" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/images/Drill6.png" className="d-block w-100" alt="Drill6" />
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#DrillCarousel" role="button" data-slide="prev">
