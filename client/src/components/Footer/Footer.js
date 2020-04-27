@@ -5,7 +5,7 @@ function Footer() {
     return(
         <div>
             <footer>
-                <p>© Stickley Designs, LLC</p>
+                <p>© Stickley Designs</p>
             </footer>
         </div>
     )

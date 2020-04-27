@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import API from "../../utils/API";
 import "./ContactForm.css";
 
 function ContactForm() {
@@ -19,9 +20,28 @@ function ContactForm() {
         message: ""
     });
 
+    function handleInputChange(event) {
+        const { name, value } = event.target;
+        setMessageState({ ...messageState, [name]: value });
+      };
+
     const handleSubmit = e => {
         e.preventDefault();
-        console.log("yay");
+        if (messageState.name) {
+            API.sendEmail({
+                name: messageState.name,
+                email: messageState.email,
+                subject: messageState.subject,
+                school: messageState.school,
+                location: messageState.location,
+                students: messageState.students,
+                message: messageState.message
+            }).then(() => {
+                setMessageState({});
+            }).then(() => {
+                alert("Your message has been sent.");
+            }).catch(err => console.log(err));
+        }
     };
 
     return (
@@ -36,42 +56,56 @@ function ContactForm() {
                     <form onSubmit={handleSubmit}>
                         <div id="first">
                             <input
+                                onChange={handleInputChange}
                                 type="text"
+                                name="name"
                                 placeholder="Name"
                                 ref={nameRef}
                             />
                             <input
+                                onChange={handleInputChange}
                                 type="email"
+                                name="email"
                                 placeholder="E-Mail"
                                 ref={emailRef}
                             />
                         </div>
                         <div id="second">
                             <input
+                                onChange={handleInputChange}
                                 type="text"
+                                name="subject"
                                 placeholder="Subject"
                                 ref={subjectRef}
                             />
                             <input
+                                onChange={handleInputChange}
                                 type="text"
+                                name="school"
                                 placeholder="School Name"
                                 ref={schoolRef}
                             />
                         </div>
                         <div id="third">
                             <input
+                                onChange={handleInputChange}
                                 type="text"
+                                name="location"
                                 placeholder="City, State"
                                 ref={locationRef}
                             />
                             <input
+                                onChange={handleInputChange}
                                 type="text"
+                                name="students"
                                 placeholder="# of Students"
                                 ref={studentsRef}
                             />
                         </div>
                         <div id="textDiv">
                             <textarea
+                                onChange={handleInputChange}
+                                name="message"
                                 placeholder="Message"
                                 ref={messageRef}
                             />
