@@ -38,6 +38,7 @@
 }
 #one {
     width: 45%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(46, 93, 123);
@@ -45,6 +46,7 @@
 }
 #two {
     width: 45%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(46, 93, 123);
@@ -52,6 +54,7 @@
 }
 #three {
     width: 45%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(46, 93, 123);
@@ -59,6 +62,7 @@
 }
 #four {
     width: 45%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(46, 93, 123);
@@ -66,6 +70,7 @@
 }
 #five {
     width: 45%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(46, 93, 123);
@@ -73,6 +78,7 @@
 }
 #six {
     width: 45%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(46, 93, 123);

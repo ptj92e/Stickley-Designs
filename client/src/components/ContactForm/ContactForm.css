@@ -98,6 +98,7 @@
 }
 #contactInfo h3 {
     margin-top: 65px;
+    margin-bottom: 15px;
     color: white;
     z-index: 1;
 }
@@ -123,7 +124,6 @@
     }
     #contactInfo h3 {
         margin-top: 0px;
-        margin-bottom: 10px;
     }
     #buttonDiv {
         text-align: center;

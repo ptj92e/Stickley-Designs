@@ -6,7 +6,7 @@ function PortfolioTitle() {
     return (
         <div id="portfolioTitle">
             <div id="portfolioInfo">
-                <h1>Charts:</h1>
+                <h1>Photos:</h1>
                 <p>Here are some examples of my work with current clients from Texas, Arkansas, Indiana, and Tennessee.</p>
                 <div id="DrillCarousel" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
@@ -23,28 +23,28 @@ function PortfolioTitle() {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="/images/USSBA.png" className="d-block w-100" alt="USSBA" />
-                        </div>
-                        <div className="carousel-item">
                             <img src="/images/Drill1.png" className="d-block w-100" alt="Drill1" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/Teaching1.jpg" className="d-block w-100" alt="Teaching1" />
+                            <img src="/images/USSBA.png" className="d-block w-100" alt="USSBA" />
                         </div>
                         <div className="carousel-item">
                             <img src="/images/Drill2.png" className="d-block w-100" alt="Drill2" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/Teaching2.jpg" className="d-block w-100" alt="Teaching2" />
+                            <img src="/images/Teaching1.jpg" className="d-block w-100" alt="Teaching1" />
                         </div>
                         <div className="carousel-item">
                             <img src="/images/Drill3.png" className="d-block w-100" alt="Drill3" />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/Teaching3.jpg" className="d-block w-100" alt="Teaching3" />
+                            <img src="/images/Teaching2.jpg" className="d-block w-100" alt="Teaching2" />
                         </div>
                         <div className="carousel-item">
                             <img src="/images/Drill4.png" className="d-block w-100" alt="Drill4" />
+                        </div>
+                        <div className="carousel-item">
+                            <img src="/images/Teaching3.jpg" className="d-block w-100" alt="Teaching3" />
                         </div>
                         <div className="carousel-item">
                             <img src="/images/Drill5.png" className="d-block w-100" alt="Drill5" />
