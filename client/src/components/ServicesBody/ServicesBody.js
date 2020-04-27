@@ -8,7 +8,7 @@ function ServicesBody() {
                 <div id="one">
                     <i class="fas fa-laptop fa-2x"></i>
                     <h3>Drill Design</h3>
-                    <p>Custom drill design to fit your marching program.</p>
+                    <p>Custom drill design to fit your marching band, indoor percussion, or indoor guard's needs.</p>
                 </div>
                 <div id="two">
                     <i class="fas fa-shoe-prints fa-2x"></i>
@@ -20,7 +20,7 @@ function ServicesBody() {
                 <div id="three">
                     <i class="fas fa-chalkboard-teacher fa-2x"></i>
                     <h3>Clinics</h3>
-                    <p>For programs that are looking to have me come out to work with your band program.</p>
+                    <p>For programs that are looking to have me come out to work with your students.</p>
                 </div>
                 <div id="four">
                     <i class="fas fa-mobile-alt fa-2x"></i>

@@ -28,7 +28,7 @@ function ContactForm() {
         <div id="contactForm">
             <div id="contactTitle">
                 <h1>Contact:</h1>
-                <p>If you would like to work with me, please contact me below.</p>
+                <p>If you are interested in me being a part of your team, please contact me below!</p>
             </div>
             <hr></hr>
             <div id="contactBottom">

@@ -6,6 +6,7 @@
     border: 3px solid rgb(249, 162, 106);
 }
 #portfolioItems p {
+    font-size: 19px;
     text-align: center;
 }
 #videoDiv {

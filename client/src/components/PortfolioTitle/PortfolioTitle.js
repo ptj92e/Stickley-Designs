@@ -7,7 +7,7 @@ function PortfolioTitle() {
         <div id="portfolioTitle">
             <div id="portfolioInfo">
                 <h1>Charts:</h1>
-                <p>Here are some examples of my work. Please take a look, and if you like what you see, let me know in the contact page.</p>
+                <p>Here are some examples of my work with current clients from Texas, Arkansas, Indiana, and Tennessee.</p>
                 <div id="DrillCarousel" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#DrillCarousel" data-slide-to="0" className="active"></li>
