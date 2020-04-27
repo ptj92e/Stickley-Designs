@@ -18,9 +18,10 @@ router.route("/")
             }
         });
         let mailOptions = {
+            from: EMAIL,
             to: PERSON_EMAIL,
             subject: req.body.subject,
-            text: "Name: " + req.body.name + " : Email: " + req.body.email + " : School: " + req.body.school + " : Location: " + req.body.location + " : Student #: " +req.body.students + " : Message: " + req.body.message
+            text: "Name: " + req.body.name + " : Email: " + req.body.email + " : School: " + req.body.school + " : Location: " + req.body.location + " : Student #: " + req.body.students + " : Message: " + req.body.message
         };
         transporter.sendMail(mailOptions, (err, info) => {
             if (err) {
