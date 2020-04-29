@@ -6,3 +6,11 @@
   mix-blend-mode: luminosity;
   position: relative;
 }
+@media only screen and (max-width: 768px) {
+  #home {
+    background-position: 15% 85%;
+  }
+}
+@media only screen and (max-width: 562px) {
+  
+}
